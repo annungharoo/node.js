@@ -39,7 +39,7 @@ client.on('message', (message) => {
   if(message.content == '안녕') {
     const embed = new Discord.MessageEmbed()
       .setTitle('하루')
-      .setDescription( '${message.author.username} 님안녕하세요')
+      .setDescription( '안녕하세요')
       .setColor('#00ffff')
     message.channel.send(embed)
   };
